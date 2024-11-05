@@ -1,0 +1,18 @@
+* C:\Users\nihar\OneDrive\Documents\LTspice\Single phase dc-ac converter.asc
+V1 N001 0 300
+S1 N002 N001 S14 0 SW
+S2 0 N002 S23 0 SW
+S3 N004 N001 S23 0 SW
+S4 0 N004 S14 0 SW
+L1 N003 N002 1600µ Ipk=200m
+C1 N003 N004 250µ V=100m
+R1 N003 N004 50
+V2 control 0 SINE(5 5 60)
+V3 carrier 0 PULSE(0 10 0 {0.5/fs} {0.5/fs} 0ms {1/fs})
+B1 S14 0 v=if(v(control)>=v(carrier),10,0)
+B2 S23 0 v=if(v(control)<v(carrier),10,0)
+.param fs=10000
+.model sw sw(ron=1m roff=1meg vt=5)
+.tran 500ms
+.backanno
+.end
