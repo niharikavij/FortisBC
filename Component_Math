@@ -1,0 +1,25 @@
+// This file is to calculate some key values for the inverter, including part numbers when we spec.
+
+//Parameters
+Vin = 8V
+Pout = 20W
+Vout = 12V
+
+C1/C2 = 1 mH // We do not know if this is needed, more maybe i under or oversized it?
+
+//Calculations
+
+R0 = V^2/P
+R0 = (8^2)/20 = 3.2 Ohms
+
+Vo/Vi = 2D-1
+8/12 = 2*D -1
+D = 2*((8/12)-1)
+D = 0.833
+
+Z0 = (L/C)^0.5
+fc = 1/(2*pi*(L*C)^0.5)
+
+//Solve System of Equations for fc = 500 Hz and Z0 = R0
+L = 1.01859163579 * 10 ^ -3
+C = 9.94718394324 * 10 ^ -5 
