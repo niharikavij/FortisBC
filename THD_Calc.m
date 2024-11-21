@@ -33,7 +33,7 @@ harmonic_amplitudes = zeros(1, length(harmonic_orders));
 for i = 1:length(harmonic_orders)
     target_harmonic_frequency = harmonic_orders(i) * fundamental_freq;  % Harmonic frequency
     [~, idx_harmonic] = min(abs(f - target_harmonic_frequency));
-    harmonic_amplitudes(i) = P1(idx_harmonic);  % Amplitude of the harmonic
+    harmonic_amplitudes(i) = P1(idx_harmonic) / V1 *100;  % Percentage of the harmonic amplitude
 end
 
 % Calculate THD
@@ -42,7 +42,7 @@ THD = sqrt(harmonics_squared_sum) / V1 * 100;
 
 % Results
 fprintf('Fundamental Amplitude (60 Hz): %.2f\n', V1);
-fprintf('Harmonic Amplitudes (3rd, 5th, 7th, 9th, 11th, 13th): %.2f, %.2f, %.2f, %.2f, %.2f, %.2f\n', harmonic_amplitudes);
+fprintf('Harmonic Amplitudes (3rd, 5th, 7th, 9th, 11th, 13th): %.2f%%, %.2f%%, %.2f%%, %.2f%%, %.2f%%, %.2f%%\n', harmonic_amplitudes);
 fprintf('Total Harmonic Distortion (THD): %.2f%%\n', THD);
 
 % Plot
