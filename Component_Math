@@ -14,12 +14,14 @@ R0 = (12^2)/20 = 4.2 Ohms
 
 // Modulation Index
 ma = V_peak,ctrl/V_peak,carrier
-ma = /sqrt(2) * 1/ 1
 
-Vo/Vi = 2D-1
-12/12 = 2*D -1
-D = 2*((12/12)-1)
-D = 0
+//For ma = 1 and V_peak, carrier being 1
+V_peak, control = 1?
+
+//Frequency Modulation Index
+mf = f_sw/f_line 
+mf = 10000/60
+mf = 166.67
 
 Z0 = (L/C)^0.5
 fc = 1/(2*pi*(L*C)^0.5)
