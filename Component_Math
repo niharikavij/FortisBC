@@ -1,7 +1,7 @@
 // This file is to calculate some key values for the inverter, including part numbers when we spec.
 
 //Parameters
-Vin = 8V
+Vin = 12V
 Pout = 20W
 Vout = 12V
 
@@ -10,7 +10,7 @@ C1/C2 = 1 mH // We do not know if this is needed, more maybe i under or oversize
 //Calculations
 
 R0 = V^2/P
-R0 = (8^2)/20 = 3.2 Ohms
+R0 = (12^2)/20 = 4.2 Ohms
 
 Vo/Vi = 2D-1
 8/12 = 2*D -1
