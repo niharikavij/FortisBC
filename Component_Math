@@ -10,22 +10,22 @@ C1/C2 = 1 mH // We do not know if this is needed, more maybe i under or oversize
 //Calculations
 
 R0 = V^2/P
-R0 = (12^2)/20 = 4.2 Ohms
+R0 = (12^2)/20 = 7.2 Ohms
 
 // Modulation Index
 ma = V_peak,ctrl/V_peak,carrier
 
 //For ma = 1 and V_peak, carrier being 1
-V_peak, control = 1?
+V_peak, control = 1
 
 //Frequency Modulation Index
 mf = f_sw/f_line 
 mf = 10000/60
-mf = 166.67
+mf = 166.67 // Good enough resolution to see a good output sinusoid
 
 Z0 = (L/C)^0.5
 fc = 1/(2*pi*(L*C)^0.5)
 
 //Solve System of Equations for fc = 500 Hz and Z0 = R0
-L = 1.01859163579 * 10 ^ -3
-C = 9.94718394324 * 10 ^ -5 
+L = 2.29183118052 * 10 ^ -3 H
+C = 4.42097064144 * 10 ^ -5 F
