@@ -15,7 +15,7 @@ Fs = N/t(N-1);  % (Hz) Sampling Frequency
 % Perform FFT
 Y = fft(signal);
 P2 = abs(Y/N);
-P1 = P2(1:N/2+1);
+P1 = P2(1:floor(N/2)+1);
 P1(2:end-1) = 2*P1(2:end-1);
 
 % Frequency
