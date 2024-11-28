@@ -1,0 +1,12 @@
+sourcebus, 0, 0
+bus_1, 0, 0
+bus_load, 0, 0
+txbus, 0, 0
+no_pv_load1, 0, 0
+bus_pv1, 0, 0
+bus_pv, 0, 0
+nopvload1, 0, 0
+txfromsource, 0, 0
+pv_load1, 0, 0
+pv_storage1, 0, 0
+pv_system1, 0, 0

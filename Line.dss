@@ -1,0 +1,9 @@
+New "Line.line_0" phases=1 bus1=bus_1.1 bus2=bus_load.1
+New "Line.line_1" phases=1 bus1=txbus.1 bus2=no_pv_load1.1
+New "Line.line_2" phases=1 bus1=bus_pv1.1 bus2=bus_pv.1
+New "Line.line_3" bus1=bus_1.1.0.0 bus2=bus_load_non_pv.1.0.0
+New "Line.line_4" bus1=txbus.1.0.0 bus2=nopvload1.1.0.0 phases=3
+New "Line.line_5" bus1=sourcebus.1.2.3 bus2=txfromsource.1.2.3
+New "Line.txpvline" phases=1 bus1=txbus.1 bus2=pv_load1.1
+New "Line.invertertostorageline" phases=1 bus1=pv_load1.1 bus2=pv_storage1.1
+New "Line.storagetopvline" phases=1 bus1=pv_storage1.1 bus2=pv_system1.1

@@ -1,0 +1,12 @@
+sourcebus, 621, 268
+bus_1, 642, 18
+bus_load, 793, 269
+txbus, 622, 642
+no_pv_load1, 348, 875
+bus_pv1, 1010, 269
+bus_pv, 905, 268
+nopvload1, 542, 778
+txfromsource, 621, 453
+pv_load1, 887, 873
+pv_storage1, 1098, 873
+pv_system1, 1318, 873

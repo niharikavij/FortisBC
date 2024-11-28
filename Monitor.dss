@@ -1,0 +1,4 @@
+New "Monitor.loadmon_0" element=load.ld_0 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes action=clear
+New "Monitor.loadmon_1" element=load.ld_1 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_2" element=load.no_pv_load mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_3" element=load.pv_load mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes

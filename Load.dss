@@ -1,0 +1,4 @@
+New "Load.ld_0" phases=1 basefreq=60.000000 bus1=bus_load.1 kVA=10 kvar=3.74821404262561 kW=6.94444444444444 kwh=1250.000000 spectrum=pvload
+New "Load.ld_1" bus1=bus_load_non_pv.1.0.0
+New "Load.no_pv_load" phases=1 bus1=no_pv_load1.1 kW=10
+New "Load.pv_load" phases=1 bus1=pv_load1.1 kW=10 spectrum=pvload

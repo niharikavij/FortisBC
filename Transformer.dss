@@ -1,0 +1,2 @@
+New "Transformer.xfmr_0" windings=2 phases=1 conns=[wye, wye, ] kVs=[25, 0.24, ] kVAs=[25, 25, ] taps=[1, 1, ] buses=[txfromsource.1, txbus.1, ] conns=[wye, wye, ] kVs=[25, 0.24, ] kVAs=[25, 25, ] taps=[1, 1, ] wdg=1 %R=0.2 RdcOhms=42.5 wdg=2 %R=0.2 RdcOhms=0.0039168 RdcOhms=0.0039168 buses=[txfromsource.1, txbus.1, ]
+New "Transformer.xfmr_1" phases=1 windings=2

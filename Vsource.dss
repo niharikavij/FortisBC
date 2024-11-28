@@ -1,0 +1,2 @@
+Edit "Vsource.source" phases=3 angle=0 basekv=12.500000 bus1=sourcebus.1.2.3 bus2=sourcebus.0.0.0 pu=1.000000 basefreq=60.000000 frequency=60.000000 baseMVA=100
+New "Vsource.vsource_1" bus1=sourcebus.1.2.3 bus2=sourcebus.0.0.0

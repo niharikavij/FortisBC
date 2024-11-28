@@ -1,0 +1,2 @@
+New "PVSystem.pv_2" phases=1 bus1=bus_pv1.1
+New "PVSystem.pv_1" phases=1 bus1=pv_system1.1
