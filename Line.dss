@@ -1,0 +1,11 @@
+New "Line.line_0" bus1=sourcebus.1.2.3 bus2=txfromsource.1.2.3
+New "Line.line_1" phases=1 bus1=txbus.1 bus2=load_1.1
+New "Line.line_2" phases=1 bus1=txbus.1 bus2=load_2.1
+New "Line.line_3" phases=1 bus1=txbus.1 bus2=load_3.1
+New "Line.line_4" phases=1 bus1=txbus.1 bus2=load_4.1
+New "Line.line_5" phases=1 bus1=txbus.1 bus2=load_5.1
+New "Line.line_6" phases=1 bus1=txbus.1 bus2=load_6.1
+New "Line.line_7" phases=1 bus1=txbus.1 bus2=inverter_1.1
+New "Line.line_8" phases=1 bus1=txbus.1 bus2=inverter_2.1
+New "Line.line_9" phases=1 bus1=inverter_1.1 bus2=inverter_load_1.1
+New "Line.line_10" phases=1 bus1=inverter_2.1 bus2=inverter_load_2.1

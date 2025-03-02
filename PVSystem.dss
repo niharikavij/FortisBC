@@ -1,0 +1,2 @@
+New "PVSystem.pv_1" phases=1 bus1=inverter_1.1 spectrum=inverter1 kVA=11.5 Pmpp=11.5 kvarMax=0.7 kvarMaxAbs=0.7 Temperature=15
+New "PVSystem.pv_2" phases=1 bus1=inverter_2.1 spectrum=inverter1 kVA=7.68 kvar=1.12179 kvarMax=7.68 kvarMaxAbs=7 pf=0.9895 Pmpp=7.68 Temperature=20

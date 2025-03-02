@@ -1,0 +1,8 @@
+New "Monitor.loadmon_0" element=load.ld_0 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_1" element=load.ld_2 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_2" element=load.ld_3 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_3" element=load.ld_4 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_4" element=load.ld_5 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_5" element=load.ld_6 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_6" element=load.inv_ld_1 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon_7" element=load.inv_ld_2 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes

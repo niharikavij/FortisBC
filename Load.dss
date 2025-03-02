@@ -1,0 +1,8 @@
+New "Load.ld_0" phases=1 bus1=load_1.1
+New "Load.ld_2" phases=1 bus1=load_2.1
+New "Load.ld_3" phases=1 bus1=load_3.1
+New "Load.ld_4" phases=1 bus1=load_4.1
+New "Load.ld_5" phases=1 bus1=load_5.1
+New "Load.ld_6" kVA=1.2 kvar=0.374699879903904 kW=1.14 pf=0.95 phases=1 bus1=load_6.1
+New "Load.inv_ld_1" phases=1 bus1=inverter_load_1.1
+New "Load.inv_ld_2" phases=1 bus1=inverter_load_2.1

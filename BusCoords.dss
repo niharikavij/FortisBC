@@ -1,0 +1,13 @@
+sourcebus, 660, 227
+txfromsource, 660, 406
+txbus, 660, 600
+load_1, 115, 789
+load_2, 191, 790
+load_3, 285, 791
+load_4, 379, 792
+load_5, 459, 792
+load_6, 549, 791
+inverter_1, 757, 791
+inverter_2, 870, 789
+inverter_load_1, 757, 889
+inverter_load_2, 870, 889
