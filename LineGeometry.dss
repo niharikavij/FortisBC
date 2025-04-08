@@ -1,0 +1,8 @@
+New "LineGeometry.dssdummy25093706437"
+~ nphases=3
+~ nconds=4
+~ Cond=1 wire=ACSR556 X=-1.243584 h=10.3632 units=m
+~ Cond=2 wire=ACSR556 X=0 h=10.52194 units=m
+~ Cond=3 wire=ACSR556 X=1.014984 h=10.3632 units=m
+~ Cond=4 wire=ACSR556 X=0 h=9.09319 units=m
+

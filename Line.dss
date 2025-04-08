@@ -1,0 +1,13 @@
+New "Line.line_0" bus1=substation_bus.1.2.3 bus2=dist_tx_bus.1.2.3
+New "Line.line_2" phases=1 bus1=load_bus.1 length=10 units=m bus2=inv_switch.1
+New "Line.line_3" phases=1 bus1=load_bus.1 bus2=load_1.1 length=10 units=m
+New "Line.line_4" phases=1 bus1=load_bus.1 length=10 units=m bus2=load_2.1
+New "Line.line_5" phases=1 bus1=load_bus.1 bus2=load_3.1 length=10 units=m
+New "Line.line_6" phases=1 bus1=load_bus.1 bus2=load_4.1 length=10 units=m
+New "Line.line_7" phases=1 bus1=load_bus.1 bus2=load_5.1 length=10 units=m
+New "Line.line_8" phases=1 length=10 units=m bus1=load_bus.1 bus2=load_6.1
+New "Line.line_9" phases=1 bus1=inv_switch.1 bus2=inv_1.1 length=10 units=m
+New "Line.line_10" phases=1 bus1=load_bus.1 bus2=inv_switch2.1 length=10 units=m
+New "Line.line_11" phases=1 bus1=inv_switch2.1 bus2=inv_2.1 length=10 units=m
+New "Line.line_12" phases=1 bus1=inv_1.1 bus2=inv_load_1.1 length=10 units=m
+New "Line.line_13" phases=1 bus1=inv_2.1 bus2=inv_load_2.1 length=10 units=m

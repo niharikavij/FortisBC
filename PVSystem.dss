@@ -1,0 +1,2 @@
+New "PVSystem.pv_1" Pmpp=20 spectrum=inverter1 phases=1 kv=0.24 kVA=11.5 bus1=inv_1.1
+New "PVSystem.pv_2" phases=1 bus1=inv_2.1 kv=0.24 kVA=11.5 spectrum=inverter1

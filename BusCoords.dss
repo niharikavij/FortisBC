@@ -1,0 +1,16 @@
+sourcebus, 659, 379
+substation_bus, 659, 509
+dist_tx_bus, 659, 700
+load_bus, 659, 857
+inv_switch, 358, 998
+load_1, 1027, 1098
+load_2, 903, 1099
+load_3, 757, 1098
+load_4, 1030, 1260
+load_5, 903, 1260
+load_6, 758, 1262
+inv_1, 357, 1100
+inv_switch2, 507, 994
+inv_2, 507, 1098
+inv_load_1, 355, 1260
+inv_load_2, 509, 1260

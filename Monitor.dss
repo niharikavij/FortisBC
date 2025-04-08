@@ -1,0 +1,7 @@
+New "Monitor.gridmon" element=line.line_0 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.loadmon" element=load.ld_0 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.invmon" element=pvsystem.pv_1 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.txmon" element=transformer.xfmr_2 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.linemon_0" element=line.line_0 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes action=clear
+New "Monitor.linemon_1" element=line.line_2 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes
+New "Monitor.linemon_2" element=line.line_3 mode=0 terminal=1 PPolar=yes residual=no VIPolar=yes

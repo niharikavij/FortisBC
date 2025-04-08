@@ -1,0 +1,3 @@
+New "SwtControl.sw_1" SwitchedObj=line.line_9 State=Closed
+New "SwtControl.sw_2" SwitchedObj=line.line_0 State=open
+New "SwtControl.sw_3" SwitchedObj=line.line_11 State=Closed

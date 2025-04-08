@@ -1,0 +1,16 @@
+sourcebus, 0, 0
+substation_bus, 0, 0
+dist_tx_bus, 0, 0
+load_bus, 0, 0
+inv_switch, 0, 0
+load_1, 0, 0
+load_2, 0, 0
+load_3, 0, 0
+load_4, 0, 0
+load_5, 0, 0
+load_6, 0, 0
+inv_1, 0, 0
+inv_switch2, 0, 0
+inv_2, 0, 0
+inv_load_1, 0, 0
+inv_load_2, 0, 0

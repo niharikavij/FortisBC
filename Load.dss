@@ -1,0 +1,8 @@
+New "Load.ld_0" phases=1 bus1=load_1.1 kV=0.24 kwh=1000.000000 kVA=5 spectrum=defaultgen
+New "Load.ld_2" phases=1 bus1=load_2.1 kV=0.24 kVA=5 spectrum=defaultgen
+New "Load.ld_3" phases=1 bus1=load_3.1 kV=0.24 kVA=5 spectrum=defaultgen
+New "Load.ld_4" phases=1 bus1=load_4.1 kV=0.24 kVA=5 spectrum=defaultgen
+New "Load.ld_5" phases=1 bus1=load_5.1 kV=0.24 kVA=5 spectrum=defaultgen
+New "Load.ld_6" phases=1 kV=0.24 kVA=5 bus1=load_6.1 spectrum=defaultgen
+New "Load.ld_7" phases=1 bus1=inv_load_1.1 kV=0.24 kVA=5 spectrum=defaultvsource
+New "Load.ld_8" phases=1 bus1=inv_load_2.1 kV=0.24 kVA=5 spectrum=defaultvsource
